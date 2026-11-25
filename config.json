@@ -1,0 +1,37 @@
+{
+  "title_include": [
+    "brand(?:ing)?\\s+(?:designer|design|identity|creative)",
+    "graphic",
+    "visual\\s+(?:designer|design|identity|communication)",
+    "art\\s+director",
+    "creative\\s+(?:designer|director|lead|artist)",
+    "communications?\\s+designer",
+    "marketing\\s+designer",
+    "packaging\\s+designer",
+    "presentation\\s+designer",
+    "design\\s+lead"
+  ],
+  "title_exclude": [
+    "\\bux\\b", "\\bui\\b", "product\\s+design", "interior", "fashion", "jewel", "engineer",
+    "developer", "mechanical", "electrical", "civil", "architect", "game\\s+design",
+    "industrial", "hardware", "cad\\b", "textile", "\\bsales\\b"
+  ],
+  "arbeitnow_visa_pages": 10,
+  "arbeitnow_general_pages": 5,
+  "adzuna_countries": ["gb", "de", "nl", "fr", "es", "it", "at", "be", "ch", "pl"],
+  "adzuna_queries": ["brand designer", "graphic designer", "visual designer", "art director"],
+  "keep_days": 45,
+  "drop_if_unseen_days": 7,
+  "send_when_empty": false,
+  "max_in_email": 25,
+  "search_links": [
+    {"label": "LinkedIn: brand designer, UK, visa sponsorship (24h)", "url": "https://www.linkedin.com/jobs/search/?keywords=brand%20designer%20visa%20sponsorship&location=United%20Kingdom&f_TPR=r86400"},
+    {"label": "LinkedIn: graphic designer, Europe, remote (24h)", "url": "https://www.linkedin.com/jobs/search/?keywords=graphic%20designer&location=Europe&f_WT=2&f_TPR=r86400"},
+    {"label": "Indeed UK: brand designer + visa sponsorship (24h)", "url": "https://uk.indeed.com/jobs?q=brand+designer+%22visa+sponsorship%22&fromage=1"},
+    {"label": "Google Jobs: graphic designer, visa sponsorship, Europe", "url": "https://www.google.com/search?q=graphic+designer+visa+sponsorship+jobs+europe&ibp=htl;jobs"},
+    {"label": "Dribbble jobs: brand designer", "url": "https://dribbble.com/jobs?keyword=brand+designer"},
+    {"label": "Behance job list: brand designer", "url": "https://www.behance.net/joblist?search=brand%20designer"},
+    {"label": "Welcome to the Jungle: brand designer", "url": "https://www.welcometothejungle.com/en/jobs?query=brand%20designer"},
+    {"label": "GOV.UK: Register of licensed sponsors (workers)", "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers"}
+  ]
+}
